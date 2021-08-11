@@ -1,0 +1,230 @@
+
+
+
+/* increased header height */
+.navigation {
+  height: 80px;
+
+}
+
+.navbar-brand{
+font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-collapse {
+  background-color: #f8f9fa;
+}
+
+
+/* bckgrnd image */
+.mybanner {
+  height: 610px;
+  background-color: grey;
+  background-image: url(1.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* overlay black color transparrency */
+.banner_content {
+  height: 610px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* texts on banner color changed to white */
+.clr {
+  color: white;
+}
+
+/* position of text and button on banner using padding code  */
+.padd {
+  padding-left: 120px;
+  padding-top: 230px;
+}
+
+
+/* _________________________________________________________________________ */
+/* varieties ,section2 */
+
+
+/* text and para in center after banner */
+.vrty {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-color: #ccd5ae;
+}
+
+/* increasing size of para */
+.sz {
+font-size: 20px;
+}
+
+/* ************ */
+/* designing cards */
+
+.my-card{
+    width: 400px !important;
+    margin-top: 2px !important;
+}
+.row {
+  background-color: #ccd5ae;
+}
+
+.card {
+  /* resizing card a little bit */
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px; */
+
+    /* Adding shadow effect*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* hover effect for cards */
+.card:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.contain{
+  padding: 0% !important;
+  margin: 0% !important;
+}
+
+/* __________________________________________________________________ */
+/* pricing section 3 */
+
+.pricediv {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #ccd5ae;
+}
+
+/* heading */
+.pricehead {
+  text-align: center !important;
+}
+
+/* para */
+.pricehead1 {
+  font-size: 20px;
+  text-align: center !important;
+}
+
+/* modifying pricelist */
+.accordion-item {
+  background-color: #ccd5ae !important;
+}
+
+
+.img-fluid {
+  width: 500px;
+  height: 500px;
+}
+/* padding for each buttn on prize list */
+.butnprice {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.dd {
+  background-color: #ccd5ae;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+
+.hdofacrdn {
+  text-align: center;
+}
+/* ____________________________________________________________ */
+/* cntact section */
+
+
+/* bckgrnd color of cntct div */
+.cntct {
+  padding-top: 50px;
+  background-color: #ccd5ae;
+}
+
+
+/* cntact heading in center */
+.cntcthead {
+  text-align: center;
+}
+
+
+/* cntct para in center */
+.cntctpara {
+  font-size: 20px;
+  text-align: center;
+}
+
+.cntctfrm {
+  background-color: #ccd5ae;
+  padding-left: 250px !important;
+  padding-right: 250px !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+
+/* _____________________________________________________________________ */
+
+/* _____________________________________________________ */
+/* css responsiveness for mobile */
+
+
+@media (max-width:500px) {
+/* padding of texts in banner */
+  .padd{
+    padding-left: 40px;
+    padding-top: 300px;
+  }
+
+/* padding of heading after banner */
+
+.vrty {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: #ccd5ae;
+}
+
+.hdofacrdn{
+  font-size: 20px !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  text-align: center;
+}
+
+.dd {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
+
+.cntctpara {
+  font-size: 15px;
+}
+
+.cntctfrm{
+padding: 10px !important;
+}
+
+
+}
